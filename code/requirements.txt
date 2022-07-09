@@ -1,0 +1,71 @@
+absl-py==1.0.0
+addict==2.4.0
+cachetools==4.2.4
+certifi==2021.5.30
+cffi @ file:///C:/ci/cffi_1625831763871/work
+charset-normalizer==2.0.12
+colorama==0.4.4
+cycler==0.10.0
+Cython==0.29.24
+dataclasses==0.8
+-e git+git@github.com:CharlesShang/DCNv2.git@c7f778f28b84c66d3af2bf16f19148a07051dac1#egg=DCNv2
+decorator==4.4.2
+easydict==1.9
+google-auth==2.6.5
+google-auth-oauthlib==0.4.6
+grpcio==1.45.0
+idna==3.3
+imageio==2.9.0
+importlib-metadata==4.8.3
+kiwisolver==1.3.1
+Markdown==3.3.6
+matplotlib==3.3.4
+mkl-fft==1.3.0
+mkl-random==1.0.4
+mkl-service==2.3.0
+mmcv==1.4.8
+munch==2.5.0
+networkx==2.5.1
+ninja==1.10.2.3
+numpy==1.17.0
+oauthlib==3.2.0
+olefile==0.46
+opencv-python==4.5.4.60
+packaging==21.3
+pandas @ file:///C:/ci/pandas_1608056614942/work
+Pillow @ file:///C:/ci/pillow_1625663293114/work
+pretrainedmodels==0.7.4
+progress==1.6
+protobuf==3.19.4
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycocotools==2.0.2
+pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
+pyparsing==2.4.7
+python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+pytorch-warmup==0.0.4
+pytz @ file:///tmp/build/80754af9/pytz_1612215392582/work
+PyWavelets==1.1.1
+PyYAML==6.0
+regex==2022.3.15
+requests==2.27.1
+requests-oauthlib==1.3.1
+rsa==4.8
+scikit-image==0.17.2
+scipy==1.5.4
+six @ file:///tmp/build/80754af9/six_1623709665295/work
+tensorboard==2.8.0
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.1
+tifffile==2020.9.3
+torch==1.2.0
+torchsummary==1.5.1
+torchvision==0.4.0
+tqdm==4.62.2
+typing-extensions==4.1.1
+urllib3==1.26.9
+Werkzeug==2.0.3
+wincertstore==0.2
+yacs==0.1.8
+yapf==0.32.0
+zipp==3.6.0
