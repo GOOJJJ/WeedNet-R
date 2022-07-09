@@ -16,7 +16,7 @@ A impoved weed detection model based on RetinaNet.
 
 ### dataset preparation
 
-1. download sugarbeets2016 dataset from
+1. download sugarbeets2016 dataset from [dataset](https://pan.baidu.com/s/1MGoRRnL9kTcRMS4SWV76TQ "extraction code code：zr06")   extraction code：zr06
 2. Unpack the dataset to your path
 3. run `tocsv.py` under `./dataset` directory
 4. Copy the generated train.csv, test.csv, and val.csv files to `./code/dataset/`
