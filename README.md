@@ -1,10 +1,10 @@
 # WeedNet-R
 
-A impoved weed detection model based on RetinaNet.
+A improved weed detection model based on RetinaNet. This repository makes available the source code and public dataset for  the work, "WeedNet-R：A sugar beet field weed detection algorithm based on enhanced RetinaNet and context semantic fusion"
 
 ## Installation
 
-1) Clone this repo
+1) Clone this repository
 2) Install environment
 
    ```shell
@@ -49,12 +49,13 @@ python visualize.py --dataset csv --csv_classes <path/to/train/class_list.csv>  
 
 ## Model
 
-The retinanet model uses a resnet backbone ([download link](https://pan.baidu.com/s/1tXSp3MfIGGoXWmgQi5zZhQ) psw：v4o1) You can set the depth of the resnet model using the --depth argument. Depth must be one of 18, 34, 50, 101 or 152. Note that deeper models are more accurate but are slower and use more memory.
+The RetinaNet model uses a resnet backbone ([download link](https://pan.baidu.com/s/1tXSp3MfIGGoXWmgQi5zZhQ) psw：v4o1) You can set the depth of the Resnet model using the --depth argument. Depth must be one of 18, 34, 50, 101 or 152. Note that deeper models are more accurate but are slower and use more memory.
 
 ## Acknowledgements
 
 The original weed dataset source form [SugarBeets2016](http://www.ipb.uni-bonn.de/data/sugarbeets2016/)
 
-The base network retinanet from [pytorch-retinanet](https://github.com/yhenon/pytorch-retinanet)
+The base network RetinaNet from [pytorch-retinanet](https://github.com/yhenon/pytorch-retinanet)
 
 ## Examples
+
