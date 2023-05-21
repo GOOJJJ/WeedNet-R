@@ -2,6 +2,7 @@ import argparse
 import collections
 import math
 import os
+# set gpu id
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 import numpy as np
 from retinanet import utils

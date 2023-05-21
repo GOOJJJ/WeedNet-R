@@ -182,7 +182,7 @@ def evaluate(
     precisions = {}
     recalls = {}
 
-    #计算每一类的FP和TP
+    #
     score05_idxs = []
     final_scores = {}
     for label in range(generator.num_classes()):
@@ -191,7 +191,7 @@ def evaluate(
         scores = np.zeros((0,))
         num_annotations = 0.0
         score05_idx = 0
-        #遍历每一张图片的预测结果
+        #
         for i in range(len(generator)):
             detections = all_detections[i][label]
             annotations = all_annotations[i][label]
@@ -201,12 +201,11 @@ def evaluate(
             for d in detections:
                 scores = np.append(scores, d[4])
 
-                #如果无gt，则为fp
                 if annotations.shape[0] == 0:
                     false_positives = np.append(false_positives, 1)
                     true_positives = np.append(true_positives, 0)
                     continue
-                #计算交并比
+                #get iou
                 overlaps = compute_overlap(np.expand_dims(d, axis=0), annotations)
                 assigned_annotation = np.argmax(overlaps, axis=1)
                 max_overlap = overlaps[0, assigned_annotation]
