@@ -1,6 +1,6 @@
 # WeedNet-R
 
-A improved weed detection model based on RetinaNet. This repository makes available the source code and public dataset for  the work, "WeedNet-R：A sugar beet field weed detection algorithm based on enhanced RetinaNet and context semantic fusion"
+An improved weed detection model based on RetinaNet. This repository makes available the source code and public dataset for  the work, "WeedNet-R：A sugar beet field weed detection algorithm based on enhanced RetinaNet and context semantic fusion"
 
 ## Installation
 
